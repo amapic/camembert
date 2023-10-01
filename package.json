@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@react-spring/three": "^9.6.1",
+    "@react-spring/web": "^9.7.3",
     "@react-three/a11y": "^3.0.0",
     "@react-three/cannon": "^6.5.0",
     "@react-three/drei": "^9.72.1",
@@ -28,6 +29,7 @@
     "react-cookiebot": "^1.0.10",
     "react-dom": "^18.2.0",
     "react-is": "^18.1.0",
+    "react-spring": "^9.6.1",
     "react-vfx": "^0.5.0",
     "three": "^0.141.0",
     "three-stdlib": "^2.10.2",
@@ -52,5 +54,8 @@
     "tailwindcss": "^3.3.3",
     "typescript": "^4.7.3",
     "url-loader": "^4.1.1"
+  },
+  "peerDependencies": {
+    "react-spring": "^9.6.1"
   }
 }
